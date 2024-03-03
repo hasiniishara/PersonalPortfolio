@@ -1,0 +1,306 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins';
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 90%;
+}
+
+.global-title-p{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 70px;
+}
+
+.global-title-h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+/* navbar styling starts here */
+nav{
+    height: 80px;
+    background-color: #3D155E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    place-items: center;
+    z-index: 1;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 30%;
+
+}
+
+.nav-links li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-links li a:hover{
+    color: #DF678C ;
+    /* text-decoration: underline; */
+}
+
+.nav-links li a:active{
+    color: red;
+}
+
+/* Header styling starts here */
+
+header{
+    padding-top: 150px;
+}
+
+.header-image{
+    height: 100%;
+    width: 90%;
+    /* border: 1px solid black; */
+}
+
+
+.header-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.header-right{
+    text-align: center;
+    margin: auto;
+}
+
+.header-action-area{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Research a bit more on different between px and em */
+
+.btn{
+    border: 1px solid #DF678C;
+    width: 180px;
+    padding: 1em 2em ;
+    border-radius: 30px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600; 
+}
+
+.btn-dark{
+    background-color: #DF678C;
+    color: white;
+}
+
+.icon-social{
+    width: 32px;
+}
+
+.header-social{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header-right p{
+    font-size: 18px;
+    font-weight: 600;
+    margin: auto;
+}
+
+.header-right h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 15px auto;
+}
+
+.header-right h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px auto;
+}
+
+
+/* About Section styling starts here */
+
+.about-container{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-container img{
+    width: 100%;
+    /* display: block; */
+}
+
+.basic-edu{
+    display: flex;
+    /* you can use grid as well */
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.edu-box{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    width: 270px;
+    height: 400px;
+}
+
+.edu-box img{
+    margin: auto;
+}
+
+.about-p{
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+
+section{
+    position: relative;
+}
+
+/* Expereience styling starts here */
+
+.experience-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.expereience-box{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 25px
+}
+
+.expereience-box h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.experience{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.ex-div{
+    display: flex;
+    gap: 20px;
+    margin: auto;
+}
+
+.ex-div img{
+    width: 32px;
+    margin: auto;
+}
+
+/* Project styling starts here */
+
+.project-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.project{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 25px;
+    text-align: center;
+}
+.project img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.central-project{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+/* Contact styling starts here */
+
+.contact-container{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-contact a h4{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* footer styling starts here */
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
