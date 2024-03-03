@@ -1,1 +1,1 @@
-This is Personal Portfolio Project.
+This is a Personal Portfolio Project.
