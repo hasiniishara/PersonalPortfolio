@@ -238,36 +238,15 @@ section{
     margin-top: 30px;
 }
 
-.ex-div {
+.ex-div{
     display: flex;
-    align-items: center; 
     gap: 20px;
     margin: auto;
 }
 
-.ex-div img {
+.ex-div img{
     width: 32px;
-    height: 32px; 
-    margin: 0; 
-}
-
-.ex-div div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-}
-
-.ex-div h4 {
-    font-size: 18px; 
-    font-weight: 600;
-    line-height: 1.2; 
-    margin: 0;
-}
-
-.ex-div p {
-    font-size: 14px; 
-    line-height: 1.2; 
-    margin: 0; 
+    margin: auto;
 }
 
 /* Project styling starts here */
